@@ -1,0 +1,4 @@
+color: 15
+size: 16
+speed: 6
+walls: 1

@@ -1,0 +1,40 @@
+﻿  Snake.cpp
+C:\Users\User\Desktop\Snake-master\settings.h(32,23): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\User\Desktop\Snake-master\game.h(13,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(5119,24): warning C4805: ==: небезопасное смешение типа "bool" и типа "const _Ty" в операции
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(5128,86): message : выполняется компиляция ссылки на экземпляр шаблон функции "_InIt std::_Find_unchecked<_InIt,_Ty>(_InIt,const _InIt,const _Ty &)"
+          with
+          [
+              _InIt=bool *,
+              _Ty=int
+          ]
+C:\Users\User\Desktop\Snake-master\configuration.h(55,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "_InIt *std::find<bool*,int>(_InIt,const _InIt,const _Ty &)"
+          with
+          [
+              _InIt=bool *,
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(5038,28): warning C4805: ==: небезопасное смешение типа "const _Ty" и типа "bool" в операции
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(5083,97): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool std::_Within_limits<_InIt,_Ty>(const _InIt &,const _Ty &)"
+          with
+          [
+              _InIt=bool *,
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(5128,86): message : выполняется компиляция ссылки на экземпляр шаблон функции "_InIt std::_Find_unchecked<_InIt,_Ty>(_InIt,const _InIt,const _Ty &)"
+          with
+          [
+              _InIt=bool *,
+              _Ty=int
+          ]
+C:\Users\User\Desktop\Snake-master\game.h(45): warning C4715: moveResult: значение возвращается не при всех путях выполнения
+C:\Users\User\Desktop\Snake-master\game.h(119): warning C4715: move: значение возвращается не при всех путях выполнения
+  Snake.vcxproj -> C:\Users\User\Desktop\Snake-master\x64\Debug\Snake.exe
