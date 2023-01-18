@@ -120,9 +120,9 @@ bool move(int button, int size, int *length, int** coordinates, int** table, boo
 
 int game(int maxScore, int options[]) {
 	int score = 0;
-	int length = 2;
-	//int size = options[0] / 2;
-	int size = 2;
+	int length = 4;
+	int size = options[0] / 2;
+	//int size = 2;
 
 	clock_t speed = 1000 - options[1] * 100;
 	int** table = new int* [size];
@@ -138,10 +138,10 @@ int game(int maxScore, int options[]) {
 	coordinates[0][1] = 1;
 	coordinates[1][0] = size / 2;
 	coordinates[1][1] = 2;
-	//coordinates[2][0] = size / 2;
-	//coordinates[2][1] = 3;
-	//coordinates[3][0] = size / 2;
-	//coordinates[3][1] = 4;
+	coordinates[2][0] = size / 2;
+	coordinates[2][1] = 3;
+	coordinates[3][0] = size / 2;
+	coordinates[3][1] = 4;
 
 	int appleIndex = apple(coordinates, length, size); // Начальное яблоко
 	table[appleIndex / (size * 2)][appleIndex % (size * 2)] = 3;
